@@ -1,0 +1,52 @@
+body{
+    margin: 20px;
+}
+
+#fila1{
+    padding: 4px;
+}
+
+#fila2{
+    padding: 4px;
+}
+
+#fila3{
+    padding: 4px;
+}
+
+#fila4{
+    padding: 4px;
+}
+
+input{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-color: black;
+    margin-left: 2px;
+
+}
+#enter{
+    width: 200px;
+    text-align: right;
+    height:30 ;
+    margin-left: 0px;
+    background-color: lightgray;
+} 
+#container{
+    width: fit-content;
+    height: fit-content;
+    background-color:lightseagreen;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+#logo{
+    width: 60px;
+    height: 80px;
+    float: right;
+    margin-top: -20px;
+}
+
