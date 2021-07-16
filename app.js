@@ -1,3 +1,4 @@
+// escribir en pantalla
 var decimal=0;
 function escribir0() {
     const y= document.getElementById("0").value;
@@ -71,7 +72,9 @@ function escribirDecimal(){
     var signo="";
     var h="";
     var x2="";
-    
+
+    //boton +
+
 function suma() {
 
     var h= document.getElementById("enter").value;
@@ -98,6 +101,7 @@ function suma() {
             cont=0;
     }
 }
+//boton -
     function resta() {
 
         var h= document.getElementById("enter").value;
@@ -125,7 +129,7 @@ function suma() {
         }
 
     }
-
+//boton *
     function mult() {
         var h= document.getElementById("enter").value;
 
@@ -151,7 +155,7 @@ function suma() {
         }
 
     }
-
+//boton /
     function divide() {
 
         var h= document.getElementById("enter").value;
@@ -184,7 +188,7 @@ function suma() {
         }
     
     }
-
+//boton =
     function igual(){
         switch (signo) {
 
@@ -239,7 +243,7 @@ function suma() {
         }
         
     }
-
+//borrar pantalla
     function c() {
         x1="";
         document.getElementById("enter").value="";
